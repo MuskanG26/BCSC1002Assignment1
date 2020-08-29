@@ -11,7 +11,7 @@ public class Book {
     private String AuthorName;
     private String ISBN_NO;
 
-    public book ()
+    public Book()
     {
         BookName="The Alchemist";
         AuthorName="Paulo Coelho";
