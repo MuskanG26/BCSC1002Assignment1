@@ -23,6 +23,7 @@ public class Book {
         this.ISBN_NO = ISBN_NO;
     }
 
+
     /**
      * method for checking length of ISBN NUMBER.
      */
@@ -33,7 +34,18 @@ public class Book {
         if (N != 13) {
             System.out.println("Invalid ISBN Number, enter again!");
         }
+    }
 
+    public String getBookName() {
+        return BookName;
+    }
 
+    public void setBookName(String bookName) {
+        BookName = bookName;
     }
 }
+
+
+
+
+
