@@ -40,16 +40,29 @@ public class Book {
         return BookName;
     }
 
-    public void setBookName(String bookName) {
+    public void setBookName(String bookName)
+    {
         BookName = bookName;
     }
 
-    public String getAuthorName() {
+    public String getAuthorName()
+    {
         return AuthorName;
     }
 
-    public void setAuthorName(String AuthorName) {
+    public void setAuthorName(String AuthorName)
+    {
         this.AuthorName = AuthorName;
+    }
+
+    public String getISBN_NO()
+    {
+        return ISBN_NO;
+    }
+
+    public void setISBN_NO(String ISBN_NO)
+    {
+        this.ISBN_NO=ISBN_NO;
     }
 }
 
