@@ -17,6 +17,12 @@ public class Book {
         AuthorName="Paulo Coelho";
         ISBN_NO="2ABA23728856N";
     }
+    public Book(String BookName, String AuthorName, String ISBN_NO)
+    {
+        this.BookName=BookName;
+        this.AuthorName=AuthorName;
+        this.ISBN_NO=ISBN_NO;
+    }
 
 
 }
