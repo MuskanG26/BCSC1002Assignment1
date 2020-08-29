@@ -64,6 +64,13 @@ public class Book {
     {
         this.ISBN_NO=ISBN_NO;
     }
+    public String toString()
+    {
+        return String.format("BookName: %s, Author of Book: %s, ISBN no.of Book: %s",getBookName(),getAuthorName(),getISBN_NO());
+
+    }
+
+
 }
 
 
