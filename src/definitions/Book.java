@@ -43,7 +43,16 @@ public class Book {
     public void setBookName(String bookName) {
         BookName = bookName;
     }
+
+    public String getAuthorName() {
+        return AuthorName;
+    }
+
+    public void setAuthorName(String AuthorName) {
+        this.AuthorName = AuthorName;
+    }
 }
+
 
 
 
