@@ -7,4 +7,23 @@
 package definitions;
 
 public class Student {
+    private String FirstName;
+    private String MiddleName;
+    private String LastName;
+    private long URno;
+    private int NoOfIssuedBooks;
+    private static Book [] IssuedBooks;
+
+    public Student()
+    {IssuedBooks=new Book[3];
+    }
+
+    public Student(String FirstName,String MiddleName,String LastName,Long URno,Integer NoOfIssuedBooks)
+    {
+        this.FirstName=FirstName;
+        this.MiddleName=MiddleName;
+        this.LastName=LastName;
+        this.URno=URno;
+        this.NoOfIssuedBooks=NoOfIssuedBooks;
+    }
 }
