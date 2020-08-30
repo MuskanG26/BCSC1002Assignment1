@@ -6,13 +6,21 @@
  * */
 package definitions;
 
+import javax.accessibility.AccessibleValue;
 import java.util.Arrays;
 
 public class Library {
     private Book[] AvailableBooks;
     public Library()
     {
-        this.AvailableBooks= new Book[10];
+        this.AvailableBooks= new Book[6];
+        AvailableBooks[0]=new Book("Let us C","Yashwant Kanetkar","6747837387569");
+        AvailableBooks[1]=new Book("Blue Umbrella","Ruskin Bond","8748473857698");
+        AvailableBooks[2]=new Book("Angels and Demons","Dan Brown","7843KL9545444");
+        AvailableBooks[3]=new Book("Java the complete Reference", "Herbert Schildt", "94548RL422887");
+        AvailableBooks[4]=new Book("Database System", "Ramez Elmasri", "8794555227892");
+        AvailableBooks[5]=new Book("Software Engineering", "Ian Sommerville", "7893264568712");
+
     }
     public Library(Book[]AvailableBooks)
     {

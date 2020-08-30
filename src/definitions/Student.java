@@ -18,7 +18,9 @@ public class Student {
     private static Book[] IssuedBooks;
 
     public Student() {
-        IssuedBooks = new Book[3];
+        IssuedBooks = new Book[2];
+        IssuedBooks[0]=new Book("Head FIrst Java","Bert Bates","AB256172GAIS23");
+        IssuedBooks[1]= new Book("Man's Search For Meaning","Viktor Frankl","9781846041242");
     }
 
     public Student(String FirstName, String MiddleName, String LastName, Long URno, Integer NoOfIssuedBooks) {
