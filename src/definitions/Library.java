@@ -7,4 +7,14 @@
 package definitions;
 
 public class Library {
+    private Book[] AvailableBooks;
+    public Library()
+    {
+        this.AvailableBooks= new Book[10];
+    }
+    public Library(Book[]AvailableBooks)
+    {
+        this.AvailableBooks=AvailableBooks;
+    }
 }
+
