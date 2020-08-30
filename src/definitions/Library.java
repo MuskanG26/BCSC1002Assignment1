@@ -9,8 +9,7 @@ package definitions;
 import javax.accessibility.AccessibleValue;
 import java.util.Arrays;
 
-public class Library {
-    private Book[] AvailableBooks;
+public class Library {   private Book[] AvailableBooks;
     public Library()
     {
         this.AvailableBooks= new Book[6];
@@ -22,6 +21,7 @@ public class Library {
         AvailableBooks[5]=new Book("Software Engineering", "Ian Sommerville", "7893264568712");
 
     }
+
     public Library(Book[]AvailableBooks)
     {
         this.AvailableBooks=AvailableBooks;
