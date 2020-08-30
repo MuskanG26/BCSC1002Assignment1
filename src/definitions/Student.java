@@ -65,6 +65,14 @@ public class Student {
     public void setURno(long URno) {
         this.URno = URno;
     }
+
+    public Book[] getIssuedBooks() {
+        return IssuedBooks;
+    }
+
+    public void setIssuedBooks(Book[] IssuedBooks) {
+        Student.IssuedBooks = IssuedBooks.clone();
+    }
 }
 
 
