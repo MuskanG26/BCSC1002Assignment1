@@ -41,6 +41,14 @@ public class Student {
     public void setMiddleName(String middleName) {
         this.MiddleName = middleName;
     }
+
+    public String getLastName() {
+        return LastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.LastName = lastName;
+    }
 }
 
 
