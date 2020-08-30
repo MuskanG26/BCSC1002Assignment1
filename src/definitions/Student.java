@@ -26,4 +26,13 @@ public class Student {
         this.URno=URno;
         this.NoOfIssuedBooks=NoOfIssuedBooks;
     }
+
+    public String getFirstName() {
+        return FirstName;
+    }
+
+    public void setFirstName(String firstName) {
+        FirstName = firstName;
+    }
 }
+
