@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Arrays;
+
 public class Student {
     private String FirstName;
     private String MiddleName;
@@ -74,16 +76,26 @@ public class Student {
         Student.IssuedBooks = IssuedBooks.clone();
     }
 
+
     /**
-     *  This method is for listing all the books issued by student. */
-    public void NameOfIssuedBooks()
-    {
-        for(Book book: IssuedBooks)
-        {
+     * This method is for listing all the books issued by student.
+     */
+    public void NameOfIssuedBooks() {
+        for (Book book : IssuedBooks) {
             System.out.println(book);
         }
+
     }
 
+    public String toString() {
+        String string = String.format("Student's First Name: %s, Student's Middle Name: %s, Student's Last Name: %s, Student's University RollNo: %s, Number of Books Issued By Student: %s",
+
+                getFirstName(), getMiddleName(), getLastName(), getURno(), getNoOfIssuedBooks());
+
+        string = string + Arrays.toString(IssuedBooks);
+        return string;
+    }
 }
+
 
 
