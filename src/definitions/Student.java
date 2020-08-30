@@ -124,10 +124,17 @@ public class Student {
         return result;
     }
     /**
-     * this method returns a book baack to library
-     * @param book_name is the name of book tot be returned
+     * this method returns a book back to library
+     * @param book_name is the name of book to be returned
      */
     public void Return(String book_name){
+        System.out.println("You have successfully issued book:" + book_name);
+    }
+    /**
+     * This method issues a new book from library
+     * @param book_name is the name of the book to be issued
+     */
+    public void IssueNewBook(String book_name){
         System.out.println("You have successfully issued book:" + book_name);
     }
 }
