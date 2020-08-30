@@ -73,6 +73,17 @@ public class Student {
     public void setIssuedBooks(Book[] IssuedBooks) {
         Student.IssuedBooks = IssuedBooks.clone();
     }
+
+    /**
+     *  This method is for listing all the books issued by student. */
+    public void NameOfIssuedBooks()
+    {
+        for(Book book: IssuedBooks)
+        {
+            System.out.println(book);
+        }
+    }
+
 }
 
 
