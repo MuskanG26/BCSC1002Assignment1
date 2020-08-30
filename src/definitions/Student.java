@@ -12,19 +12,18 @@ public class Student {
     private String LastName;
     private long URno;
     private int NoOfIssuedBooks;
-    private static Book [] IssuedBooks;
+    private static Book[] IssuedBooks;
 
-    public Student()
-    {IssuedBooks=new Book[3];
+    public Student() {
+        IssuedBooks = new Book[3];
     }
 
-    public Student(String FirstName,String MiddleName,String LastName,Long URno,Integer NoOfIssuedBooks)
-    {
-        this.FirstName=FirstName;
-        this.MiddleName=MiddleName;
-        this.LastName=LastName;
-        this.URno=URno;
-        this.NoOfIssuedBooks=NoOfIssuedBooks;
+    public Student(String FirstName, String MiddleName, String LastName, Long URno, Integer NoOfIssuedBooks) {
+        this.FirstName = FirstName;
+        this.MiddleName = MiddleName;
+        this.LastName = LastName;
+        this.URno = URno;
+        this.NoOfIssuedBooks = NoOfIssuedBooks;
     }
 
     public String getFirstName() {
@@ -34,5 +33,14 @@ public class Student {
     public void setFirstName(String firstName) {
         FirstName = firstName;
     }
+
+    public String getMiddleName() {
+        return MiddleName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.MiddleName = middleName;
+    }
 }
+
 
