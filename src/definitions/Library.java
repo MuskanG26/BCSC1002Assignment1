@@ -50,5 +50,13 @@ public class Library {
     public int hashCode() {
         return Arrays.hashCode(getAvailableBooks());
     }
+    /**
+     * This method shows a list of all available books
+     */
+    public void AvailableBooksList(){
+        for(Book book: AvailableBooks){
+            System.out.println(book);
+        }
+    }
 }
 
