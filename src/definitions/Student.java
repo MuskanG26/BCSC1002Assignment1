@@ -118,12 +118,17 @@ public class Student {
     }
 
     @Override
-    public int hashCode()
-    {
-        int result=Objects.hash(getFirstName(), getMiddleName(), getLastName(), getURno(), getNoOfIssuedBooks());
-        result= result + Arrays.hashCode(getIssuedBooks());
+    public int hashCode() {
+        int result = Objects.hash(getFirstName(), getMiddleName(), getLastName(), getURno(), getNoOfIssuedBooks());
+        result = result + Arrays.hashCode(getIssuedBooks());
         return result;
-
+    }
+    /**
+     * this method returns a book baack to library
+     * @param book_name is the name of book tot be returned
+     */
+    public void Return(String book_name){
+        System.out.println("You have successfully issued book:" + book_name);
     }
 }
 
