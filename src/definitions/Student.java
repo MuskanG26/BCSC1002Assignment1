@@ -49,6 +49,14 @@ public class Student {
     public void setLastName(String lastName) {
         this.LastName = lastName;
     }
+
+    public int getNoOfIssuedBooks() {
+        return NoOfIssuedBooks;
+    }
+
+    public void setNoOfIssuedBooks(int NoOfIssuedBooks) {
+        this.NoOfIssuedBooks = NoOfIssuedBooks;
+    }
 }
 
 
