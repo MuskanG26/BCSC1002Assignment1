@@ -57,6 +57,14 @@ public class Student {
     public void setNoOfIssuedBooks(int NoOfIssuedBooks) {
         this.NoOfIssuedBooks = NoOfIssuedBooks;
     }
+
+    public long getURno() {
+        return URno;
+    }
+
+    public void setURno(long URno) {
+        this.URno = URno;
+    }
 }
 
 
